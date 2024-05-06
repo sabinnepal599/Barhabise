@@ -1,0 +1,13 @@
+var CatIII = {
+"type": "FeatureCollection",
+"name": "CatIII",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "S__N_": 25, "Municipali": "Barhabise", "Ward_no": 1, "Village_To": "Simkharka-Utisey", "Longitude": 85.98835, "Latitude": 27.80808333, "Category": "III", "Field8": null, "kflnsf": "afx|la;]", "j8f_g__": "!", "a_tL": "l;dvs{" }, "geometry": { "type": "Point", "coordinates": [ 85.98835, 27.80808333 ] } },
+{ "type": "Feature", "properties": { "S__N_": 31, "Municipali": "Barhabise", "Ward_no": 2, "Village_To": "Sisney-Durumthali", "Longitude": 85.95638333, "Latitude": 27.80585, "Category": "III", "Field8": null, "kflnsf": "afx|la;]", "j8f_g__": "@", "a_tL": "l;:g] b'?DynL" }, "geometry": { "type": "Point", "coordinates": [ 85.95638333, 27.80585 ] } },
+{ "type": "Feature", "properties": { "S__N_": 37, "Municipali": "Bahrabise", "Ward_no": 7, "Village_To": "Tangsar", "Longitude": 85.847005643000003, "Latitude": 27.831214273000001, "Category": "III", "Field8": null, "kflnsf": "afx|la;]", "j8f_g__": "&", "a_tL": "6ª\\;f/" }, "geometry": { "type": "Point", "coordinates": [ 85.847005643, 27.831214273 ] } },
+{ "type": "Feature", "properties": { "S__N_": 49, "Municipali": "Bahrabise", "Ward_no": 5, "Village_To": "Rumta", "Longitude": 85.905662282999998, "Latitude": 27.807881681000001, "Category": "III", "Field8": null, "kflnsf": "afx|la;]", "j8f_g__": "%", "a_tL": "?D6f" }, "geometry": { "type": "Point", "coordinates": [ 85.905662283, 27.807881681 ] } },
+{ "type": "Feature", "properties": { "S__N_": 51, "Municipali": "Bahrabise", "Ward_no": 5, "Village_To": "Khagdal", "Longitude": 85.89547402, "Latitude": 27.80749378, "Category": "III", "Field8": null, "kflnsf": "afx|la;]", "j8f_g__": "%", "a_tL": "vfUbn" }, "geometry": { "type": "Point", "coordinates": [ 85.893518103053154, 27.802653956314025 ] } },
+{ "type": "Feature", "properties": { "S__N_": 75, "Municipali": "Bahrabise", "Ward_no": 2, "Village_To": "Khahare", "Longitude": 85.950968212000006, "Latitude": 27.786566168, "Category": "III", "Field8": null, "kflnsf": "afx|la;]", "j8f_g__": "@", "a_tL": "vx/]" }, "geometry": { "type": "Point", "coordinates": [ 85.950968212, 27.786566168 ] } }
+]
+}
