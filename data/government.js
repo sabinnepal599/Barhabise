@@ -1,0 +1,14 @@
+var government = {
+"type": "FeatureCollection",
+"name": "government",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "lhNnf": "l;Gw'kfNrf]s", "F_ofgLo_tx": "afx|la;]", "j8f_g__": "#", "6f_n": "v';f{gLaf/L", "k_sf_": ";/sf/L sfo{fno", "gfd": "kflnsf sfo{fno", "Latitude": 27.7938773, "Longitude": 85.8968747, "Ward": 3, "Type": "Government Office", "Name": "Municipality Office" }, "geometry": { "type": "Point", "coordinates": [ 85.8968747, 27.7938773 ] } },
+{ "type": "Feature", "properties": { "lhNnf": "l;Gw'kfNrf]s", "F_ofgLo_tx": "afx|la;]", "j8f_g__": "$", "6f_n": ";flbvf]N;f", "k_sf_": "cGo", "gfd": "vfg]kfgLsf] sfo{fno", "Latitude": 27.791483028999998, "Longitude": 85.8996816489, "Ward": 4, "Type": "Government Office", "Name": "Drinking Water Office" }, "geometry": { "type": "Point", "coordinates": [ 85.899681648935811, 27.791483029047438 ] } },
+{ "type": "Feature", "properties": { "lhNnf": "l;Gw'kfNrf]s", "F_ofgLo_tx": "afx|la;]", "j8f_g__": "$", "6f_n": "afx|la;]", "k_sf_": ";/sf/L sfo{fno", "gfd": "!,@,#,$,^,&,* g+= j8f sfo{fno", "Latitude": 27.7883777, "Longitude": 85.8998517, "Ward": 4, "Type": "Government Office", "Name": "Ward 1,2,3,4,6,7,8 Office" }, "geometry": { "type": "Point", "coordinates": [ 85.8998517, 27.7883777 ] } },
+{ "type": "Feature", "properties": { "lhNnf": "l;Gw'kfNrf]s", "F_ofgLo_tx": "afx|la;]", "j8f_g__": "$", "6f_n": "afx|la;]", "k_sf_": ";/sf/L sfo{fno", "gfd": "g]kfn ljB't k|flws/0f", "Latitude": 27.7893179, "Longitude": 85.8987525, "Ward": 4, "Type": "Government Office", "Name": "Nepal Electricity Authority" }, "geometry": { "type": "Point", "coordinates": [ 85.8987525, 27.7893179 ] } },
+{ "type": "Feature", "properties": { "lhNnf": "l;Gw'kfNrf]s", "F_ofgLo_tx": "afx|la;]", "j8f_g__": "$", "6f_n": "afx|la;]", "k_sf_": ";/sf/L sfo{fno", "gfd": "g]kfn 6]lnsd", "Latitude": 27.7878778, "Longitude": 85.8991548, "Ward": 4, "Type": "Government Office", "Name": "Nepal Telecom" }, "geometry": { "type": "Point", "coordinates": [ 85.8991548, 27.7878778 ] } },
+{ "type": "Feature", "properties": { "lhNnf": "l;Gw'kfNrf]s", "F_ofgLo_tx": "afx|la;]", "j8f_g__": "%", "6f_n": null, "k_sf_": ";/sf/L sfo{fno", "gfd": "% g+= j8f sfo{fno", "Latitude": 27.7913975, "Longitude": 85.8979968, "Ward": 5, "Type": "Government Office", "Name": "Ward 5 Office" }, "geometry": { "type": "Point", "coordinates": [ 85.8979968, 27.7913975 ] } },
+{ "type": "Feature", "properties": { "lhNnf": "l;Gw'kfNrf]s", "F_ofgLo_tx": "afx|la;]", "j8f_g__": "(", "6f_n": "afx|la;]", "k_sf_": ";/sf/L sfo{fno", "gfd": "( g+= j8f sfof{no", "Latitude": 27.7877953, "Longitude": 85.8983016, "Ward": 9, "Type": "Government Office", "Name": "Ward 9 Office" }, "geometry": { "type": "Point", "coordinates": [ 85.8983016, 27.7877953 ] } }
+]
+}
