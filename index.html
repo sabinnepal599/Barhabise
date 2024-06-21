@@ -296,6 +296,18 @@ var Health = L.geoJSON(health, {
     });
 map.addLayer(Health);
 
+//Security Institutions
+var Security = L.geoJSON(security, {
+        pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, { icon: security_icon });
+        },
+        onEachFeature: function (feature, latlng) {
+            latlng.bindPopup('<b> Name: </b>' + feature.properties.Name + '<br>'
+                + '<b> Ward No.: </b>' + feature.properties.Ward + '<br>');
+        }
+    });
+map.addLayer(Security);
+
 
 //evacuation_assembly_point
 
@@ -455,6 +467,7 @@ map.addLayer(Evacuationassembly_center);
         "Educational Institutions": Education,
         "Health Institutions": Health,
         "Government Offices": Government,
+        "Security Institution": Security,
         "Risk Zones":Risk_Zone,
         "Evacuation Assembly Point":Evacuationassembly_Point,
     };
