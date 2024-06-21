@@ -1,0 +1,8 @@
+var security = {
+"type": "FeatureCollection",
+"name": "security",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "lhNnf": null, "F_ofgLo_tx": null, "j8f_g__": "#", "6f_n": null, "k_sf_": null, "gfd": "afx|la;] k|x/L rf}sL", "Latitude": 0.0, "Longitude": 0.0, "Ward": 3, "Type": "Security Institution", "Name": "Barhabise Police Station" }, "geometry": { "type": "Point", "coordinates": [ 85.896185213278955, 27.795666656061051 ] } }
+]
+}
