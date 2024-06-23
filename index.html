@@ -187,16 +187,16 @@
         iconAnchor: [0, 0],
     });
 
-    var catiii_icon = L.icon({
+    var catiii = L.icon({
         iconUrl: 'data/catiii.svg',
-        iconSize: [30, 30],
+        iconSize: [20, 20],
         iconAnchor: [0, 0],
     });
 
 
-    var catii_icon = L.icon({
+    var catii = L.icon({
         iconUrl: 'data/catii.svg',
-        iconSize: [30, 30],
+        iconSize: [20, 20],
         iconAnchor: [0, 0],
     });
 
@@ -239,7 +239,7 @@
 //cat III
 var catIII = L.geoJSON(CatIII, {
         pointToLayer: function (feature, latlng) {
-            return L.marker(latlng, { icon: catiii_icon });
+            return L.marker(latlng, { icon: catiii });
         },
         onEachFeature: function (feature, latlng) {
             latlng.bindPopup('<b> CAT: </b>' + feature.properties.Category + '<br>'
@@ -251,7 +251,7 @@ map.addLayer(catIII);
 //cat II
 var catII = L.geoJSON(CatII, {
         pointToLayer: function (feature, latlng) {
-            return L.marker(latlng, { icon: catii_icon });
+            return L.marker(latlng, { icon: catii });
         },
         onEachFeature: function (feature, latlng) {
             latlng.bindPopup('<b> CAT: </b>' + feature.properties.Category + '<br>'
